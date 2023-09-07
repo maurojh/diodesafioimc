@@ -12,9 +12,9 @@ void main(List<String> arguments) {
 
   print('Bem vindo à calculadora de IMC');
 
-  nome = Utilitarios.lerConsole('Digite o nome');
-  peso = Utilitarios.lerConsoleDouble('Digite o peso: ');
-  altura = Utilitarios.lerConsoleDouble('Digite a altura: ');
+  nome = Utilitarios.lerConsole('Digite o nome:');
+  peso = Utilitarios.lerConsoleDouble('Digite o peso em kg: ');
+  altura = Utilitarios.lerConsoleDouble('Digite a altura em metros: ');
   
   Pessoa pessoa = Pessoa(nome, peso, altura);
   pessoa.mostraIMC();
