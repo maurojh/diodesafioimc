@@ -38,7 +38,7 @@ class Pessoa {
   String classificaIMC(double imc) {
     if(imc < 16) {
       return 'Magreza grave';
-    } else if(imc < 17) {
+    } else if(imc < 17) { 
       return 'Magreza moderada';
     } else if(imc < 18.5) {
       return 'Magreza leve';
